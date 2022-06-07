@@ -1,0 +1,10 @@
+-----------PREPARAÇÃO DO AMBIENTE-----------
+
+> Baixado e instalado o Python
+> pip já estava instalado
+> instalado o virtual env com o comando 'py -m install --user virtualenv'
+> no diretório do projeto, instlado o envelopamento, com o comando 'py -m virtualenv venv'
+> em 'venv\Scripts' usar o comando 'activate' para ativar o envelopamento
+> Intalar o o django no diretório com 'pip install Django'
+> no diretório do prodjeto foi passado o comando 'django-admin startproject simplemooc' para criar o projeto
+> dentro da pasta do projeto, criada pelo django, usar o comando 'manage.py runserver' para rodar como um servidor, acessar no navegador pelo endereço 127.0.0.1:8000
