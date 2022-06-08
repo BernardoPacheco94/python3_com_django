@@ -9,3 +9,5 @@
 > no diretório do prodjeto foi passado o comando 'django-admin startproject simplemooc' para criar o projeto
 > dentro da pasta do projeto, criada pelo django, usar o comando 'manage.py runserver' para rodar como um servidor, acessar no navegador pelo endereço 127.0.0.1:8000
 > criar tabelas do banco com 'manage.py migrate'
+> Importada a classe view do arquivo core no arquivo simplemooc/url.py e setado o caminho da url 'path('',views.home,name='home')'
+> em core/views.py, importado HttpResponse da lib django.http e criado a função home
