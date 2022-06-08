@@ -16,4 +16,5 @@
 	TEMPLATES
 > Toda view de django recebe como primeiro parametro o request
 > no arquivo views.py criamos a função render, passando os parametros request, arquivo e varáveis(dict)
+> utilizado no documento html (home) "tags" do django para localização dos arquivos estaticos / {% static $}
 
