@@ -11,3 +11,9 @@
 > criar tabelas do banco com 'manage.py migrate'
 > Importada a classe view do arquivo core no arquivo simplemooc/url.py e setado o caminho da url 'path('',views.home,name='home')'
 > em core/views.py, importado HttpResponse da lib django.http e criado a função home
+
+--------------------------------------------
+	TEMPLATES
+> Toda view de django recebe como primeiro parametro o request
+> no arquivo views.py criamos a função render, passando os parametros request, arquivo e varáveis(dict)
+
